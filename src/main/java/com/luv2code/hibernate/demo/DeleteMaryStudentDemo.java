@@ -38,6 +38,7 @@ public class DeleteMaryStudentDemo {
 			
 			// commit transaction
 			session.getTransaction().commit();
+			//komentarz
 
 			System.out.println("Done!");
 		} finally {
